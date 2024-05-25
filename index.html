@@ -4,27 +4,27 @@
   <meta charset="utf-8">
   <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
   <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="DESCRIPTION META TAG">
-  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
-  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
-  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- <meta name="description" content="DESCRIPTION META TAG"> -->
+  <!-- <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/> -->
+  <!-- <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/> -->
+  <!-- <meta property="og:url" content="URL OF THE WEBSITE"/> -->
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="static/image/your_banner_image.png" />
-  <meta property="og:image:width" content="1200"/>
-  <meta property="og:image:height" content="630"/>
+  <!-- <meta property="og:image" content="static/image/your_banner_image.png" /> -->
+  <!-- <meta property="og:image:width" content="1200"/> -->
+  <!-- <meta property="og:image:height" content="630"/> -->
 
 
-  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
-  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG"> -->
+  <!-- <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG"> -->
   <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
-  <meta name="twitter:card" content="summary_large_image">
+  <!-- <meta name="twitter:image" content="static/images/your_twitter_banner_image.png"> -->
+  <!-- <meta name="twitter:card" content="summary_large_image"> -->
   <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE"> -->
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 
 
-  <title>You Only Look at Interested Cells</title>
+  <title>YOLIC: An Efficient Method for Object Localization and Classification on Edge Devices</title>
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
   rel="stylesheet">
 
@@ -42,6 +42,7 @@
   <script src="static/js/bulma-carousel.min.js"></script>
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
+  <script src="https://kit.fontawesome.com/7aa2c5eaf9.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -55,27 +56,39 @@
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Kai Su</a>,</span>
+                <a>Kai Su</a>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Qiangfu Zhao</a>,</span>
+                  <a>Yoichi Tomioka</a>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yoichi Tomioka</a>
+                    <a>Qiangfu Zhao</a>
                   ,</span>
 				  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Yong Liu</a>
+                    <a>Yong Liu</a>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Graduate School of Computer Science and Engineering<br>The University of Aizu<br>Journal name</span>
+                    <span class="author-block">Graduate School of Computer Science and Engineering<br>The University of Aizu</span>
                     
                   </div>
 
                   <div class="column has-text-centered">
                     <div class="publication-links">
-                         <!-- Arxiv PDF link -->
+
+                      <!-- ArXiv abstract Link -->
                       <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
+                        <a href="https://arxiv.org/abs/2307.06689" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="ai ai-arxiv"></i>
+                        </span>
+                        <span>arXiv</span>
+                      </a>
+                    </span>
+
+                      <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2307.06689.pdf" target="_blank"
                         class="external-link button is-normal is-rounded is-dark">
                         <span class="icon">
                           <i class="fas fa-file-pdf"></i>
@@ -84,28 +97,38 @@
                       </a>
                     </span>
 
-
-                  <!-- Github link -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
+                    <!-- annotation link -->
+                    <span class="link-block">
+                      <a href="https://github.com/kai3316/YOLIC-Labeling" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                      </span>
+                      <span>Annotation Tool</span>
+                    </a>
                     </span>
-                    <span>Code</span>
-                  </a>
-                </span>
 
-                <!-- ArXiv abstract Link -->
-                <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
-                  class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                    <i class="ai ai-arxiv"></i>
+                    <!-- cell designer link -->
+                    <span class="link-block">
+                      <a href="https://github.com/kai3316/Cell-designer" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fa-solid fa-object-ungroup"></i>
+                      </span>
+                      <span>Cell Designer</span>
+                    </a>
+                    </span>
+                    
+                    <!-- Github link -->
+                    <span class="link-block">
+                      <a href="https://github.com/kai3316/YOLIC_code" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fab fa-github"></i>
+                      </span>
+                      <span>Code</span>
+                    </a>
                   </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
             </div>
           </div>
         </div>
@@ -125,7 +148,7 @@
         type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        Detect on-road risks efficiently with YOLIC, powered by Raspberry Pi CPU and achieving 30+ FPS.
+        An Efficient Way for Detecting On-road Risks and traffic signs.
       </h2>
     </div>
   </div>
@@ -140,7 +163,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            In the context of Tiny AI, we introduce "You Only Look at Interested Cells" (YOLIC), an efficient method for object localization and classification on edge devices. Seamlessly blending the strengths of semantic segmentation and object detection, YOLIC offers superior computational efficiency and precision. By adopting Cells of Interest for classification instead of individual pixels, YOLIC encapsulates relevant information, reduces computational load, and enables rough object shape inference. Furthermore, it eliminates the necessity for bounding box regression techniques by leveraging prior knowledge of object positioning, size, and shape. To tackle the issue of single-label classification limitations, a multi-label classification approach is applied to each cell, effectively recognizing overlapping or closely situated objects. This paper presents extensive experiments on multiple datasets, demonstrating that YOLIC achieves detection performance comparable to the state-of-the-art YOLO algorithms while surpassing in speed, exceeding 30fps on a Raspberry Pi 4B CPU. 
+            In the realm of Tiny AI, we introduce "You Only Look at Interested Cells" (YOLIC), an efficient method for object localization and classification on edge devices. Seamlessly blending the strengths of semantic segmentation and object detection, YOLIC offers superior computational efficiency and precision. By adopting Cells of Interest for classification instead of individual pixels, YOLIC encapsulates relevant information, reduces computational load, and enables rough object shape inference. Importantly, the need for bounding box regression is obviated, as YOLIC capitalizes on the predetermined cell configuration that provides information about potential object location, size, and shape. To tackle the issue of single-label classification limitations, a multi-label classification approach is applied to each cell, effectively recognizing overlapping or closely situated objects. This paper presents extensive experiments on multiple datasets, demonstrating that YOLIC achieves detection performance comparable to the state-of-the-art YOLO algorithms while surpassing in speed, exceeding 30fps on a Raspberry Pi 4B CPU. 
           </p>
         </div>
       </div>
@@ -149,6 +172,36 @@
 </section>
 <!-- End paper abstract -->
 
+
+
+
+<section class="section" id="Dataset">
+  <div class="container is-max-desktop content">
+  <h2 class="title">Dataset</h2>
+  <ul>
+  <li><a href="https://www.kaggle.com/datasets/sukai3316/outdoor-hazard-detection-dataset">Outdoor Hazard Detection Dataset</a></li>
+  <li><a href="https://www.kaggle.com/datasets/sukai3316/indoor-obstacle-avoidance-dataset">Indoor Obstacle Avoidance Dataset</a></li>
+  </ul>
+  <p>Click on the links to download the corresponding datasets.</p>
+  </div>
+  </section>
+
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@misc{su2023yolic,
+        title={YOLIC: An Efficient Method for Object Localization and Classification on Edge Devices}, 
+        author={Kai Su and Qiangfu Zhao and Yoichi Tomioka and Yong Liu},
+        year={2023},
+        eprint={2307.06689},
+        archivePrefix={arXiv},
+        primaryClass={cs.CV}
+  }</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
 
 <!-- Image carousel -->
 <section class="hero is-small">
@@ -174,27 +227,14 @@
 </section>
 <!-- End image carousel -->
 
-
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>BibTex Code Here</code></pre>
-    </div>
-</section>
-<!--End BibTex citation -->
-
-
   <footer class="footer">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
-
           <p>
             This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>.
           </p>
-
         </div>
       </div>
     </div>
